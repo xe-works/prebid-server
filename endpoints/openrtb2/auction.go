@@ -79,6 +79,7 @@ var accountIdSearchPath = [...]struct {
 	{true, false, []string{"app", "publisher", "id"}},
 	{false, false, []string{"site", "publisher", "ext", openrtb_ext.PrebidExtKey, "parentAccount"}},
 	{false, false, []string{"site", "publisher", "id"}},
+	{false, false, []string{"site", "publisher", "domain"}},
 	{false, true, []string{"dooh", "publisher", "ext", openrtb_ext.PrebidExtKey, "parentAccount"}},
 	{false, true, []string{"dooh", "publisher", "id"}},
 }
